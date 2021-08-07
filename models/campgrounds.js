@@ -44,7 +44,7 @@ const CampgroundSchema = new Schema({
         }
     ]
 }, opts);
-
+ 
 
 CampgroundSchema.virtual('properties.popUpMarkup').get(function () {
     return `
